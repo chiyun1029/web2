@@ -1,38 +1,122 @@
-.App {
+
+.navbar{
+  display: grid;
+  font-size:xx-large;
+  
+ 
+}
+
+
+.item6{  /*學習寶*/
+  position: relative;
+  font-size:85px;
+  color: rgb(14, 4, 4);
+  font-family:辰宇落雁體 Thin;
+  text-align: left;
+  bottom:  10px;
+  left: 20px;
+
+}
+.item3{  /*職業指南*/
+  position: absolute;
+  font-size:50px;
+  text-align: right;
+  font-family:辰宇落雁體 Thin;
+ 
+  text-align: right;
+  top:55px;
+	right: 50px;
+
+}
+
+.box1{
+  border-bottom:3px solid rgb(209, 209, 224);
+
+}
+.box {
+  height: 100%;
+  width: 95%;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(6, 100px);
+  grid-row-gap: 1em;
+  grid-gap: 20px;
+  grid-template-areas:
+    
+      "A A B B " 
+      "A A B B "
+      "A A B B "
+      "A A B B "
+      "A A B B "
+
+   ;
+  }
+  
+.item1 {
+grid-area: A;
+padding-top:5px;
+padding-left:10px;
+}
+
+
+.item2 {
+  font-size: x-large;
+  grid-area: B;
+  padding-top:5px;
+  padding-left:10px;
+  border: #83adc5 2px solid;
+}
+
+
+
+
+.el-button:focus{
+  color:rgb(142, 222, 233)
+}
+
+.grid-item3{
+  border-radius: 10px;
+  background: rgb(204, 230, 255);;
+
+ 
+  font-size: x-large;
   text-align: center;
+  border:3px solid rgb(51, 153, 255);
+  text-decoration:none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid-item4{
+  border-radius: 10px;
+  background: rgb(128, 191, 255);
+  
+
+ 
+  font-size: x-large;
+  text-align: center;
+  border:3px solid rgb(51, 153, 255);
+  text-decoration:none;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item4-1{
+  text-decoration:none;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.App-logo{
+  position: relative;
+  width: 82px;
+  height: 82px;
+  right: 10cm;
+  padding-top:5px;
+  padding-left:10px;
+  top:12px;
+	left: -19px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.butt{
+  font-size:large;
 }
